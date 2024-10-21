@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+nav {
+    background-color: #003366;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url('../img/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 4rem 0;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.hero .btn {
+    background-color: #33CCFF;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.services {
+    padding: 2rem;
+    text-align: center;
+}
+
+.services h2 {
+    margin-bottom: 1.5rem;
+}
+
+.service-item {
+    margin: 1rem 0;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer a {
+    color: #33CCFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.chat-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#messages {
+    height: 300px;
+    width: 100%;
+    border: 1px solid #ccc;
+    overflow-y: auto;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+#userInput {
+    width: 80%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.chat-box button {
+    background-color: #33CCFF;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
